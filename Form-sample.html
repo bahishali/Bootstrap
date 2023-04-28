@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            margin-bottom: 500px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container mt-5">
+    <form>
+        <div class="row mb-3">
+            <div class="col-lg-6">
+                <label class="form-label">E-mail</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="col-lg-6">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-12">
+                <label class="form-label">Address</label>
+                <input type="text" class="form-control" placeholder="Avenue, Neighbourhood, Street">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-12">
+                <label  class="form-label">Address 2</label>
+                <input type="text" class="form-control" placeholder="Apartment, No, Floor">
+            </div>
+        </div>
+
+
+
+        <div class="row mb-3">
+            <div class="col-lg-6">
+                <label class="form-label">Country</label>
+                <select class="form-select">
+                    <option selected value="">Please Select...</option>
+                    <option value="1">Türkiye</option>
+                    <option value="2">Germany</option>
+                    <option value="3">France</option>
+                    <option value="4">England</option>
+                </select>
+            </div>
+
+            <div class="col-lg-4">
+                <label  class="form-label"">City</label>
+                <select class="form-select mb-3">
+                    <option selected value="">Please Select...</option>
+                    <option value="1">İstanbul</option>
+                    <option value="2">Ankara</option>
+                    <option value="3">İzmir</option>
+                    <option value="4">Çorum</option>
+                </select>
+            </div>
+
+            <div class="col-lg-2">
+                <label  class="form-label">Zip Code</label>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+       
+        <div class="row mb-3">
+            <div class="col-12 form-check">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input">
+                    <label class="form-check-label">I have read and accept <a href="#">The Terms of Use</a>.</label>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <button type="button" class="btn btn-primary">Sign Up</button>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+<div class="container mt-5">
+    <form>
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <label class="col-form-label">E-mail</label>
+            </div>
+            <div class="col-md-10">
+                <input type="email" class="form-control">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <label class="col-form-label">Password</label>
+            </div>
+            <div class="col-md-10">
+                <input type="password" class="form-control">
+            </div>
+        </div>
+
+
+        <div class="row mb-3">
+            <div class="col-md-2">
+                <label  class="col-form-label pt-0">How many days?</label>
+            </div>
+        
+            <div class="col-md-10">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="days" value="Fullpass" checked>
+                    <label class="form-check-label">Fullpass</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="days" value="firstDay">
+                    <label class="form-check-label" >First Day</label>
+                </div> 
+                
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="days" value="decondDay" disabled>
+                    <label class="form-check-label">Second Day</label>
+                </div> 
+            </div>
+        </div>
+
+        <!-- RADIOBUTTON -->
+        <div class="row mb-3">
+            <div class="col-md-10 offset-2">
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="meal">
+                    <label class="form-check-label">Meal</label>
+                </div> 
+            </div>
+        </div>
+        <button class="btn btn-primary">Sign Up</button>
+
+    </form>
+</div>
+
+    <script src=" js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>

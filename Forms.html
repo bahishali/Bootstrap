@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            margin-bottom: 500px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container mt-5">
+    <form action="">
+        <div class="mb-3">
+            <label class="form-label">E-mail</label>
+            <input type="email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control">
+        </div>
+
+        <!-- form-control-lg
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control form-control-lg">
+        </div> -->
+
+        <!-- form-control-sm
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" class="form-control form-control-sm">
+        </div> -->
+
+        <!-- DISABLED -->
+        <div class="mb-3">
+            <label class="form-label">Phone</label>
+            <input type="number" class="form-control " disabled>
+        </div>
+        <!-- READ ONLY -->
+        <div class="mb-3">
+            <label class="form-label">Phone</label>
+            <input type="number" class="form-control " readonly value="2527654675">
+        </div>
+        <!-- UPLOAD FILE -->
+        <div class="mb-3">
+            <label class="form-label">Upload CV</label>
+            <input type="file" class="form-control " >
+        </div>
+        <!-- TEXT AREA -->
+        <div class="mb-3">
+            <label class="form-label">Upload CV</label>
+            <textarea type="text" class="form-control" rows="3" ></textarea>
+        </div>
+        <!-- SELECT OPTION-->
+        <select class="form-select mb-3">
+            <option selected value="">Please Select City</option>
+            <option value="1">İstanbul</option>
+            <option value="2">Ankara</option>
+            <option value="3">İzmir</option>
+            <option value="4">Çorum</option>
+        </select>
+
+        <select class="form-select form-select-lg mb-3">
+            <option selected value="">Please Select City</option>
+            <option value="1">İstanbul</option>
+            <option value="2">Ankara</option>
+            <option value="3">İzmir</option>
+            <option value="4">Çorum</option>
+        </select>
+
+        <select class="form-select form-select-sm mb-3">
+            <option selected value="">Please Select City</option>
+            <option value="1">İstanbul</option>
+            <option value="2">Ankara</option>
+            <option value="3">İzmir</option>
+            <option value="4">Çorum</option>
+        </select>
+
+        <!-- CHECKBOX -->
+        <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input">
+            <label class="form-check-label" >User Agreement</label>
+        </div>
+
+        <label  class="mb-1">Gender</label>
+        <div class="mb-3">
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" value="female">
+                <label class="form-check-label" >Female</label>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" value="male">
+                <label class="form-check-label" >Male</label>
+            </div> 
+        </div>
+
+        <label  class="mb-1">Gender</label>
+        <div class="mb-3">
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" value="female">
+                <label class="form-check-label" >Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="checkbox" class="form-check-input" value="male">
+                <label class="form-check-label" >Male</label>
+            </div> 
+        </div>
+        <!-- RADIOBUTTON -->
+        <label  class="mb-1">Gender</label>
+        <div class="mb-3">
+            <div class="form-check">
+                <input type="radio" class="form-check-input"  name="gender" value="female">
+                <label class="form-check-label" >Female</label>
+            </div>
+            <div class="form-check">
+                <input type="radio" class="form-check-input" name="gender" value="male">
+                <label class="form-check-label" >Male</label>
+            </div> 
+        </div>
+
+
+        <label  class="mb-1">Gender</label>
+        <div class="mb-3">
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input"  name="gender" value="female">
+                <label class="form-check-label" >Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input type="radio" class="form-check-input" name="gender" value="male">
+                <label class="form-check-label" >Male</label>
+            </div> 
+        </div>
+
+
+        <label  class="mb-1">Username</label>
+        <div class="input-group mb-3">
+            <span class="input-group-text">@</span>
+            <input type="text" class="form-control" placeholder="Please enter your username">
+            
+        </div>
+
+        <label  class="mb-1">Business Mail</label>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Please enter your business email">
+            <span class="input-group-text">@busraahishali.com</span>
+            
+        </div>
+
+        <label  class="mb-1">Email</label>
+        <div class="mb-3 form-floating">
+            <input type="email" class="form-control" placeholder="busra@busraahishali.com">
+            <label class="form-label">E-mail</label>
+        </div>
+        <label  class="mb-1">Password</label>
+        <div class="mb-3 form-floating">
+            <input type="password" class="form-control" placeholder="Password">
+            <label class="form-label">Password</label>
+        </div>
+
+
+
+    </form>
+</div>
+
+    <script src=" js/bootstrap.bundle.min.js">
+    </script>
+</body>
+
+</html>
